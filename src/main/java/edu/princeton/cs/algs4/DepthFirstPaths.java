@@ -1,6 +1,6 @@
 /******************************************************************************
- *  Compilation:  javac DepthFirstPaths.java
- *  Execution:    java DepthFirstPaths G s
+ *  Compilation:  javac DepthFirstPaths1.java
+ *  Execution:    java DepthFirstPaths1 G s
  *  Dependencies: Graph.java Stack.java StdOut.java
  *  Data files:   https://algs4.cs.princeton.edu/41graph/tinyCG.txt
  *                https://algs4.cs.princeton.edu/41graph/tinyG.txt
@@ -19,7 +19,7 @@
  *  4: 3 2 
  *  5: 3 0 
  *
- *  % java DepthFirstPaths tinyCG.txt 0
+ *  % java DepthFirstPaths1 tinyCG.txt 0
  *  0 to 0:  0
  *  0 to 1:  0-2-1
  *  0 to 2:  0-2
@@ -32,7 +32,7 @@
 package edu.princeton.cs.algs4;
 
 /**
- *  The {@code DepthFirstPaths} class represents a data type for finding
+ *  The {@code DepthFirstPaths1} class represents a data type for finding
  *  paths from a source vertex <em>s</em> to every other vertex
  *  in an undirected graph.
  *  <p>
@@ -117,7 +117,7 @@ public class DepthFirstPaths {
     }
 
     /**
-     * Unit tests the {@code DepthFirstPaths} data type.
+     * Unit tests the {@code DepthFirstPaths1} data type.
      *
      * @param args the command-line arguments
      */
