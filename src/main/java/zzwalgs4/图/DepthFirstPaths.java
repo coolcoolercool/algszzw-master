@@ -11,6 +11,7 @@ package zzwalgs4.图;
 * 使用深度优先搜索查找图中的路径
 * 重点是edgeTo[]整型数组。这个数组可以找到从每个与s联通发的顶点回到s的路径，他会记录每个顶点到起点的路径，
 * 而不是记录当前顶点到起点的路径。
+* 时间:使用深度优先搜索得到从给定七点到任意标记顶点的路径所需要的时间与路径的长度成正比
 * */
 public class DepthFirstPaths {
     private boolean[] marked;    //这个顶点是否调用过dfs
